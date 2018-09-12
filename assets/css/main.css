@@ -3732,12 +3732,12 @@ input, select, textarea {
 
 			#sidebar nav a:before, #sidebar nav a:after {
 				border-radius: 0.2em;
-				bottom: 0;
-				content: '';
-				height: 0.2em;
-				position: absolute;
-				right: 0;
-				width: 100%;
+		    bottom: 5px;
+		    content: '';
+		    height: 2px;
+		    position: absolute;
+		    right: 0;
+		    width: 100%;
 			}
 
 			#sidebar nav a:before {
