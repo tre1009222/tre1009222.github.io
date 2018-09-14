@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+.row::after{
+  content:'';
+  clear:both;
+  display: table;
+}
+[class*="col-"]{
+  float: left;
+}
